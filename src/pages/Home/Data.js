@@ -8,7 +8,7 @@ export const HomeObject = {
     buttonLabel: 'Launch App',
     buttonLabelbuy: 'Trade Now', 
     description: "Neobit Token is a governance token built on the Binance Smart Chain (BEP20) blockchain network, created to build the DeFi ecosystem and deliver rights to all Neobit holders to also  manage the platform through a voting mechanism.", 
-    headline: 'A Sustainable Auto-Staking, Compounding & Burning Protocol', 
+    headline: 'What is NeoBit Protocol. ', 
     lightText: true,
     img: require('../../images/banner_02.png'),
     alt: 'NeoBit',
