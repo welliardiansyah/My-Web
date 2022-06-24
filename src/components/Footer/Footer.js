@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../images/logo.png'
-import { FaInstagram, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { FaDiscord, FaTelegram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { Button } from '../../globalStyles';
 import { 
     FooterContainer, 
@@ -30,7 +30,9 @@ const Footer = () => {
             NeoBit Tech Information
         </FooterSubHeading>
 
-        <FooterSubText>NeoBit provides a decentralized financial asset which rewards users with a sustainable fixed compound interest model through use of it's unique NoeBit protocol.</FooterSubText>
+        <FooterSubText>
+            Subscribe me for get more information NeoBit.
+        </FooterSubText>
 
             <Form>
                 <FormInput name="email" type="email" placeholder="Your Email" />
@@ -42,35 +44,36 @@ const Footer = () => {
         <FooterLinkContainer>
             <FooterLinkWrapper>
                 <FooterLinkItems>
-                    <FooterLinkTitle>About Us</FooterLinkTitle>
-                        <FooterLink to="/">About NeoBit</FooterLink>
-                        <FooterLink to="/">How it Earn</FooterLink> 
-                        <FooterLink to="/">Whitepaper</FooterLink>
-                        <FooterLink to="/">Contract NeoBit</FooterLink>
-                        <FooterLink to="/">Audit NeoBit</FooterLink>
+                    <FooterLinkTitle>About</FooterLinkTitle>
+                        <FooterLink to="/">Docs</FooterLink>
+                        <FooterLink to="/">Team</FooterLink>
+                        <FooterLink to="/">News</FooterLink> 
+                        <FooterLink to="/">Github</FooterLink>
                 </FooterLinkItems>
 
                 <FooterLinkItems>
-                    <FooterLinkTitle>Contact Us</FooterLinkTitle>
+                    <FooterLinkTitle>Features</FooterLinkTitle>
+                        <FooterLink to="/">Exchange</FooterLink>
+                        <FooterLink to="/">Liquidity</FooterLink> 
+                        <FooterLink to="/">Farm</FooterLink>
+                        <FooterLink to="/">Launchpools</FooterLink>
+                        <FooterLink to="/">Fixed Stacking</FooterLink>
+                        <FooterLink to="/">Analytics</FooterLink>
+                </FooterLinkItems>
+
+                <FooterLinkItems>
+                    <FooterLinkTitle>Service</FooterLinkTitle>
+                        <FooterLink to="/">Referal Program</FooterLink>
+                        <FooterLink to="/">NBIT Tokens</FooterLink> 
+                        <FooterLink to="/">Apply to Launch</FooterLink>
+                        <FooterLink to="/">Space Agent</FooterLink>
+                </FooterLinkItems>
+
+                <FooterLinkItems>
+                    <FooterLinkTitle>Communities</FooterLinkTitle>
                         <FooterLink to="/">Discord</FooterLink>
-                        <FooterLink to="/">TeleGram</FooterLink> 
-                        <FooterLink to="/">Testimonials</FooterLink> 
-                </FooterLinkItems>
-
-                <FooterLinkItems>
-                    <FooterLinkTitle>About Us</FooterLinkTitle>
-                        <FooterLink to="/">About NeoBit</FooterLink>
-                        <FooterLink to="/">How it Earn</FooterLink> 
-                        <FooterLink to="/">Whitepaper</FooterLink>
-                        <FooterLink to="/">Why Farm</FooterLink>
-                </FooterLinkItems>
-
-                <FooterLinkItems>
-                    <FooterLinkTitle>Social Media</FooterLinkTitle>
+                        <FooterLink to="/">Telegram</FooterLink> 
                         <FooterLink to="/">Twitter</FooterLink>
-                        <FooterLink to="/">Facebook</FooterLink> 
-                        <FooterLink to="/">Instagram</FooterLink>
-                        <FooterLink to="/">Linkedin</FooterLink>
                 </FooterLinkItems>
                 
             </FooterLinkWrapper>
@@ -78,22 +81,26 @@ const Footer = () => {
         <SocialMedia>
             <SocialMediaWrapper>
                 <SocialMediaLogo to="/">
-                    <img src={Logo} alt="NeoBit" style={{width: "70px"}}/>
+                    <img src={Logo} alt="NeoBit" style={{width: "50px"}}/>
                 </SocialMediaLogo>
 
-                <WebsiteRights>© 2022 NeoBit. All rights Reserved</WebsiteRights>
+                <WebsiteRights>© 2022 NeoBit. All rights Reserved.</WebsiteRights>
 
                 <SocialIcons>
-                    <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                        <FaTwitter />
-                    </SocialIconLink>
-
                     <SocialIconLink href="/" target="_blank" aria-label="Telegram">
                         <FaTelegram />
                     </SocialIconLink>
 
+                    <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                        <FaTwitter />
+                    </SocialIconLink>
+
                     <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                        <FaInstagram />
+                        <FaDiscord />
+                    </SocialIconLink>
+
+                    <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+                        <FaYoutube />
                     </SocialIconLink>
                 </SocialIcons>
 

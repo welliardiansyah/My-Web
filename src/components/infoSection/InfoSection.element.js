@@ -8,17 +8,17 @@ export const InfoSec = styled.div`
 
 export const InfoRow = styled.div`
     display: flex;
-    margin: 0 -15px -15px -15px;
+    margin: 0 -10px -10px -10px;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
 `;
 
 export const InfoColumn = styled.div`
-    margin-bottom: 15px;
-    margin-left: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
     flex: 1;
     max-width: 100%;
 
@@ -52,7 +52,39 @@ export const Heading = styled.h1`
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
-    color: ${({lightText}) => (lightText ? 'f7f8fa' : '#1c2237')};
+    background: linear-gradient(
+        110.78deg,
+        rgb(118, 230, 80) -1.13%,
+        rgb(249, 214, 73) 15.22%,
+        rgb(240, 142, 53) 32.09%,
+        rgb(236, 81, 87) 48.96%,
+        rgb(255, 24, 189) 67.94%,
+        rgb(26, 75, 255) 85.34%,
+        rgb(98, 216, 249) 99.57%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+`;
+
+export const HeadingTwo = styled.h1`
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.1;
+    background: linear-gradient(
+        110.78deg,
+        rgb(118, 230, 80) -1.13%,
+        rgb(249, 214, 73) 15.22%,
+        rgb(240, 142, 53) 32.09%,
+        rgb(236, 81, 87) 48.96%,
+        rgb(255, 24, 189) 67.94%,
+        rgb(26, 75, 255) 85.34%,
+        rgb(98, 216, 249) 99.57%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 `;
 
 export const Subtitle = styled.p`

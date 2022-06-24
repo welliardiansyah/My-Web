@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { FaBars, FaTimes} from 'react-icons/fa';
+import { FaBars, FaTimes, FaWallet} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import { Button } from '../../globalStyles';
 import { 
@@ -75,17 +75,17 @@ const Navbar = () => {
                 </NavItem>
 
                 <NavItem>
-                    <NavLinks to="/audit">Pool</NavLinks>
+                    <NavLinks to="/audit">Launchpools</NavLinks>
                 </NavItem>
 
                 <NavItemBtn>
                     {button ? (
                         <NavBtnLink to='/'>
-                            <Button primary>Launch App</Button>
+                            <Button primary><FaWallet /> Connect Wallet</Button>
                         </NavBtnLink>
                     ) : (
                         <NavBtnLink to='/'>
-                            <Button fontBig primary>Launch App</Button>
+                            <Button fontBig primary>Connect Wallet</Button>
                         </NavBtnLink>
                     )}
                 </NavItemBtn>

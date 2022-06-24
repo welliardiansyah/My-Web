@@ -4,7 +4,7 @@ import { FaMagento } from "react-icons/fa";
 
 export const FooterContainer = styled.div`
     background-color: #101522;
-    padding: 4rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,13 +19,14 @@ export const FooterSubscription = styled.section`
     text-align: center;
     margin-bottom: 24px;
     padding: 24px;
-    color: #fff;
+    color: grey;
 `;
 
 export const FooterSubHeading = styled.p`
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 24px;
     font-size: 24px;
+    color: #fff;
 `;
 
 export const FooterSubText = styled.p`
@@ -100,11 +101,11 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLinkTitle = styled.h2`
-    margin-bottom: 16px;
+    margin-bottom: 16px;;
 `;
 
 export const FooterLink = styled(Link)`
-    color: #fff;
+    color: grey;
     text-decoration: none;
     margin-bottom: 0.5rem;
 
@@ -157,7 +158,6 @@ export const SocialIcons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 24px;
 `;
 
 export const SocialIconLink = styled.a`

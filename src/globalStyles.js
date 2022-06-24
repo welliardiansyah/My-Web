@@ -24,7 +24,7 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
-    border-radius: 4px;
+    border-radius: 20px;
     background: ${({primary}) => (primary ? '#4b59f7' : '#0467fb')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '12px 64px' : '10px 20px')};
@@ -44,6 +44,29 @@ export const Button = styled.button`
         width: 100%;
     }
 `;
+
+export const Headline = styled.div`
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background: linear-gradient(
+        110.78deg,
+        rgb(118, 230, 80) -1.13%,
+        rgb(249, 214, 73) 15.22%,
+        rgb(240, 142, 53) 32.09%,
+        rgb(236, 81, 87) 48.96%,
+        rgb(255, 24, 189) 67.94%,
+        rgb(26, 75, 255) 85.34%,
+        rgb(98, 216, 249) 99.57%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    `;
 
 
 export default GlobalStyles;
