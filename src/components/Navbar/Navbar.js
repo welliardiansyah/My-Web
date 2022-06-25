@@ -66,15 +66,15 @@ const Navbar = () => {
                 </NavItem>
 
                 <NavItem>
-                    <NavLinks to="/audit">Whitepaper</NavLinks>
+                    <NavLinks to="/whitepaper">Whitepaper</NavLinks>
                 </NavItem>
 
                 <NavItem>
-                    <NavLinks to="/audit">Farm</NavLinks>
+                    <NavLinks to="/farm">Farm</NavLinks>
                 </NavItem>
 
                 <NavItem>
-                    <NavLinks to="/audit">Launchpad</NavLinks>
+                    <NavLinks to="/launchpad">Launchpad</NavLinks>
                 </NavItem>
 
                 <NavItemBtn>

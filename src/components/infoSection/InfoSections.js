@@ -41,7 +41,7 @@ const InfoSections = ({
                 <Separator />
                 <CardFarm title={"Farm"} />
                 <Separator />
-                <CardPool title={"Launchpool"} />
+                <CardPool title={"Launchpad"} />
             </CardContainer>
 
           </MainCenter>

@@ -2,12 +2,25 @@ import styled from "styled-components";
 
 export const CardWrapper = styled.div`
   display: grid;
+  margin: 2px 2px 2px 2px;
   grid-template-columns: 280px;
   grid-template-rows: 20px 70px 80px;
   grid-template-areas: "image" "text" "stats";
-  border-radius: 18px;
+  border-radius: 20px;
   background: #000;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+`;
+
+export const CardWrapperLarge = styled.div`
+  display: grid;
+  margin: 2px 2px 2px 2px;
+  grid-template-columns: 100vh;
+  grid-template-rows: 80px 80px 80px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 20px;
+  background: #000;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
   text-align: center;
 `;
 

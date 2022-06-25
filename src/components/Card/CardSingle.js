@@ -1,19 +1,19 @@
 import React from "react";
 import {
-  CardWrapper,
+  CardWrapperLarge,
   CardTextWrapper,
-  CardTextBody
+  CardTextBody,
 } from "./Card.elements";
 
 export const CardSingle = () => {
   return (
-      <CardWrapper>
+      <CardWrapperLarge>
         <CardTextWrapper>
-          <CardTextBody>
+          <CardTextBody>xxxxx
           
           </CardTextBody>
         </CardTextWrapper>
-      </CardWrapper>
+      </CardWrapperLarge>
       
   );
 };

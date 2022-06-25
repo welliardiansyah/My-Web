@@ -6,6 +6,12 @@ export const InfoSec = styled.div`
     background: ${({ lightBg}) => (lightBg ? '#fff' : '#101522')};
 `;
 
+export const InfoSecs = styled.div`
+    color: #fff;
+    padding: 60px 0;
+    background: ${({ lightBg}) => (lightBg ? '#fff' : '#101522')};
+`;
+
 export const InfoRow = styled.div`
     display: flex;
     margin: 0 -10px -10px -10px;
