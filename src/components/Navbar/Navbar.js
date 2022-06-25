@@ -6,7 +6,6 @@ import {
     Nav, 
     NavbarContainer, 
     NavLogo, 
-    NavIcon, 
     MobileIcon,
     NavMenu,
     NavItem,
@@ -75,7 +74,7 @@ const Navbar = () => {
                 </NavItem>
 
                 <NavItem>
-                    <NavLinks to="/audit">Launchpools</NavLinks>
+                    <NavLinks to="/audit">Launchpad</NavLinks>
                 </NavItem>
 
                 <NavItemBtn>

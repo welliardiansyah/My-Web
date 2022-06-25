@@ -2,15 +2,18 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   width: 100%;
-  margin-top: 40px;
-  margin-bottom: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #101522;
+  margin-bottom: 40px;
+  margin: 40px 40px 40px 40px;
+  flex-wrap: wrap;
 
   @media scree and (max-width: 428px) {
-    width: 100%;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 40px;
   }
 `;
 
